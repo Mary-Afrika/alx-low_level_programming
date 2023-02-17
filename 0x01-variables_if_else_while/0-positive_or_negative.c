@@ -1,14 +1,19 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /*prints whether n is +ve or _ve
 * n=step
+* Return= 0 (success)
 */
 
-main()
+int main(void)
 {
 int n;
-if (n<=0; print positive
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n<=0; printf positive
 else print 0)
-if (n>=0; print positive
+if (n>=0; printf positive
 else ptint 0)
+return (0);
 }
