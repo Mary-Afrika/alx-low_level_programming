@@ -11,9 +11,9 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n<=0; printf positive
+ if (n<=0); printf positive
 else print 0)
-if (n>=0; printf positive
+if (n>=0); printf positive
 else ptint 0)
 return (0);
 }
