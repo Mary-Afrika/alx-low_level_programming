@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /*prints whether n is +ve or _ve
 * n=step
@@ -12,8 +13,8 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
  if (n<=0); printf positive
-else print 0)
+ else print (0)
 if (n>=0); printf positive
-else ptint 0)
-return (0);
+ else print (0)
+return = (0);
 }
