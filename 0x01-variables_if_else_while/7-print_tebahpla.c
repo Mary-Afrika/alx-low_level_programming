@@ -17,11 +17,11 @@ for (ch = 'z'; ch >= 'a'; ch--)
 
 {
 
-putchar(ch);
+putchar(ch--);
 
 }
 
-putchar('n\');
+putchar('\n');
 
 return (0);
 }
