@@ -1,17 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - prints all strings from 0 to 9
-* Returns: Always 0
+* main - prints all strings from 0 to 10
+* followed by a new line
+*
+* Return: Always 0
 */
+
 int main(void)
 {
-int num;
+int n;
 
-for (num = 0; num < 10; num++)
-printf("%d", num);
+for (n = 0; n <= 10; n++)
+putchar(n);
 
-printf("\n");
+putchar('\n');
 
 return (0);
 }
