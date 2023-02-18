@@ -11,27 +11,28 @@ int main(void)
 {
 int n;
 
-int = a
-int = b
-int = c
-int = d
+for
+(n = 48;
+n < 58;
+n++);
 
-for ("n=0; n < 10; n > -10; n < -1; n < 1;", n)
-putchar
 {
-NUM1NUM3NUM4
-}
-putchar
+
+putchar(n);
+
+if (n != 57)
+
 {
-NUM1NUM2NUM5
+
+putchar(',');
+
+putchar(' ');
+
 }
-putchar
-{
-NUM1NUM3
+
 }
-putchar
-{
-NUM2NUM5
-}
+putchar('\n');
+
 return (0);
+
 }
