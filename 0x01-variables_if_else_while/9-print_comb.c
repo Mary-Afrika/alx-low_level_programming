@@ -17,7 +17,7 @@ n++);
 
 {
 
-putchar(n);
+putchar(n + '0');
 
 if (n < 9)
 
