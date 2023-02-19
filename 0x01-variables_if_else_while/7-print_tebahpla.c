@@ -11,14 +11,15 @@ int main(void)
 
 {
 
-char ch;
+char c;
 
-for (ch = 'z'; ch >= 'a'; ch--)
+c = 'z';
+(c >= 'a')
 
 {
 
-putchar(ch--);
-
+putchar(c);
+c--;
 }
 
 putchar('\n');
