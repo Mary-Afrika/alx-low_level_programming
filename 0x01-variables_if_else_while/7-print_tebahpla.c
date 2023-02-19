@@ -13,8 +13,9 @@ int main(void)
 
 char c;
 
-c = 'z';
-(c >= 'a')
+while (c = 'z';
+c >= 'a';
+c--)
 
 {
 
