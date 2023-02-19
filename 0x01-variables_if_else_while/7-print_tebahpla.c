@@ -13,9 +13,10 @@ int main(void)
 
 char c;
 
-while (c = 'z';
-c >= 'a';
-c--)
+c = 'z';
+
+while
+(c >= 'a')
 
 {
 
