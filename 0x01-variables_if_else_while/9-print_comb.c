@@ -23,9 +23,9 @@ if (n < 57)
 
 {
 
-putchar(',');
+putchar(44);
 
-putchar(' ');
+putchar(32);
 
 }
 
