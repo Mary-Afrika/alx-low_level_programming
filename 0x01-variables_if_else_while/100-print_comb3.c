@@ -8,19 +8,19 @@
 
 int main(void)
 {
-int c;
+int n;
 int d = 0;
 
 {
-c = 0;
-while (c < 10)
+n = 48;
+while (n < c)
 {
-if (d != c && d < c)
+if (d != n && d < n)
 {
 putchar('0' + d);
-putchar('0' + c);
+putchar('0' + n);
 
-if (c + d != 17)
+if (n + d != 17)
 {
 putchar(',');
 putchar(' ');
