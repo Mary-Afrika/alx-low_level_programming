@@ -12,8 +12,8 @@ int n;
 int d = 0;
 
 {
-n = 48;
-while (n < c)
+n = 0;
+while (n < 10)
 {
 if (d != n && d < n)
 {
