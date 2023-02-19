@@ -12,7 +12,7 @@ char lc;
 for
 (lc = 'a';
 lc <= 'z';
-lc++);
+lc++)
 {
 putchar(lc);
 }
