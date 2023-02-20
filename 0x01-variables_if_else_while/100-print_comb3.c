@@ -30,8 +30,8 @@ putchar(n);
 putchar(m);
 
 if
-(n != 56
-|| m != 57)
+(n == 57
+|| m == 56)
 
 {
 putchar(',');
