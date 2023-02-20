@@ -6,8 +6,8 @@
 *return: Always 0
 */
 
-int main(void) sizes of input
-  
+int main(void) size of input
+
 {
 printf("Size of a char: %zu byte(s)\n", sizeof(char));
 printf("Size of an int: %zu byte(s)\n", sizeof(int));
