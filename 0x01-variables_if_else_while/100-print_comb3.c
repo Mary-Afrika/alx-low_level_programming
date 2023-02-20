@@ -8,35 +8,32 @@
 
 int main(void)
 {
-int ones = '0';
-int tens = 0;
+int n, m;
 
-for (tens = '0';
-tens <= '9';
-tens++);
+for
+(n = 48;
+n <= 56;
+n++);
 
-/* prints tens digit*/
 {
-for (ones = '0';
-ones <= '9';
-ones++);
-
-/*prints ones digit*/
+for
+(m = 49;
+m <= 57;
+m++);
 }
 
 {
-if (!((ones == tens)
-|| (tens > ones)))
-
-/*eliminates repitition*/
+if
+(!((n == m)
+|| (m > n)))
 }
 
 {
-putchar(tens);
-putchar(ones);
-if (!(ones == '9'
-&& tens == '8'))
-/*adds comma and spaces*/
+putchar(n);
+putchar(m);
+if
+(n != 56
+|| m != 57)
 }
 
 {
