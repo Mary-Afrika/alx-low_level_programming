@@ -8,28 +8,25 @@
 
 int main(void)
 {
-int n;
-int d = 0;
+int ones = '0';
+int tens = 0;
 
+for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
 {
-n = 0;
-while (n <= 9)
+for (ones = '0'; ones <= '9'; ones++)/*prints ones digit*/
+}
+if (!((ones == tens) || (tens > ones)))/*eliminates repitition*/
 {
-if (d != n && d < n)
-{
-putchar('0' + d);
-putchar('0' + n);
-
-if (n + d != 17)
+putchar(tens);
+putchar(ones);
+if (!(ones == '9' && tens == '8'))/*adds comma and spaces*/
+}
 {
 putchar(',');
 putchar(' ');
-}
-}
-n++;
-}
-d++;
-}
+{
+
 putchar('\n');
+
 return (0);
 }
