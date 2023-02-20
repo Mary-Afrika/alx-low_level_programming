@@ -12,6 +12,7 @@
 int main(void)
 
 {
+
 int c = 0;
 int d = 0;
 int e = 0;
@@ -38,12 +39,6 @@ if (!(c == 9 && e == 7 && d == 8))
 
 putchar(',');
 putchar(' ');
-
-c++;
-
-d++;
-
-e++;
 
 putchar('\n');
 
