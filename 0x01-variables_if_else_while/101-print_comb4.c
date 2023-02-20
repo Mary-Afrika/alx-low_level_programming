@@ -34,7 +34,7 @@ putchar(c);
 putchar(d);
 putchar(e);
 
-if (!(c == '9' && e == '7' && d == '8'))
+if (!(c == 9 && e == 7 && d == 8))
 
 putchar(',');
 putchar(' ');
