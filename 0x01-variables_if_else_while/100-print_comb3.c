@@ -26,7 +26,7 @@ ones++);
 
 {
 if (!((ones == tens)
-|| (tens > ones)));
+|| (tens > ones)))
 
 /*eliminates repitition*/
 }
@@ -35,7 +35,7 @@ if (!((ones == tens)
 putchar(tens);
 putchar(ones);
 if (!(ones == '9'
-&& tens == '8'));
+&& tens == '8'))
 /*adds comma and spaces*/
 }
 
