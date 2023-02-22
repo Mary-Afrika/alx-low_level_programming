@@ -3,6 +3,8 @@
 /**
 * main - Prints the sum of even fibonacci numbers
 * less than 4000000
+* 5 below 1024 (excluded), followed by a new line
+*
 * Return: 0
 */
 
