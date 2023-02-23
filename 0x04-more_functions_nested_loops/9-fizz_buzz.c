@@ -6,6 +6,7 @@
 */
 int main(void)
 {
+
 int n;
 
 n = 1;
@@ -31,4 +32,5 @@ printf("%d", n);
 }
 printf("\n");
 return (0);
+
 }
