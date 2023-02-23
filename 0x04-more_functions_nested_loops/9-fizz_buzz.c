@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
-* main -prints Buzz each numbers of 3 or 5.
+* main - prints Buzz each numbers of 3 or 5.
 * Return: Always 0.
 */
 int main(void)
 {
-
 int n;
 
 n = 1;
@@ -32,5 +31,4 @@ printf("%d", n);
 }
 printf("\n");
 return (0);
-
 }
