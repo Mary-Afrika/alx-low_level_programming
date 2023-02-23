@@ -2,6 +2,7 @@
 
 /**
 * main - prints Buzz each numbers of 3 or 5.
+*
 * Return: Always 0.
 */
 int main(void)
