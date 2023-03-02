@@ -9,6 +9,7 @@
 
 char *rot13(char *s)
 {
+
 int i;
 int j;
 char data1[] =
