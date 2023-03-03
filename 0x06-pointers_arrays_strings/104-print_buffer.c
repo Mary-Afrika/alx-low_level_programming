@@ -19,10 +19,10 @@ if (size <= 0)
 printf("\n");
 return;
 }
-while ( o < size)
+while (o < size)
 {
 j = size - 0 < 10 ? size - o : 10;
-printf("%08x: ",o);
+printf("%08x: ", o);
 for (i = 0; i < 10; i++)
 {
 if (i < j)
