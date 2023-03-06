@@ -20,7 +20,8 @@ one++;
 two++;
 }
 
-if (*two == '\0')return (haystack);
+if (*two == '\0')
+return (haystack);
 }
 return (NULL);
 }
