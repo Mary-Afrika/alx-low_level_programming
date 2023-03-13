@@ -1,12 +1,13 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
-* free_grid - ...
-* @grid - ...
-* @height - ...
+* free_grid - Prints a grid of integers
+* @grid - the addresss of the two dimensional grid
+* @height - height of the grid
 *
-* Return: ...
+* Return: Nothing
 */
 
 void free_grid(int **grid, int height)
