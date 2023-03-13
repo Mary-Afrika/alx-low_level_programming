@@ -6,7 +6,7 @@ int count_words(char *str);
 char **strtow(char *str);
 
 /**
-* word_len - Locates the index marking of 
+* word_len - Locates the index marking of
 *            the first word contained within a string.
 * @str: The string to be searched.
 *
@@ -27,7 +27,7 @@ return (len);
 /**
 * count_words - Counts the number of words contained within a string.
 * @str: The string to be searched.
-* 
+*
 * Return: The number of words contained within str.
 */
 int count_words(char *str)
@@ -42,7 +42,8 @@ for (index = 0; index < len; index++)
 if (*(str + index) != ' ')
 {
 words++;
-index +=word_len(str + index);}
+index += word_len(str + index);
+}
 }
 return (words);
 }
