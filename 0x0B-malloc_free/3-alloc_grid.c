@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
-* alloc_grid  nested loop to make grid
-* @width - width input
-* @height - height input
+* alloc_grid - prints a grid of integers
+* @grid - the address of the two dimensional grid
+* @width - width of the grid
+* @height - height of the grid
 *
 * Return: pointer to two dimensional array
 */
