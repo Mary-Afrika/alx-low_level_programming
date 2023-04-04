@@ -6,7 +6,7 @@
 /**
 * free_listint2 - frees a linked list
 * @head: address of the listint_t list to be freed
-* Description: the function sets the head to NULL 
+* Description: the function sets the head to NULL
 */
 void free_listint2(listint_t **head)
 {
