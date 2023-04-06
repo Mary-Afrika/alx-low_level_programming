@@ -17,7 +17,6 @@ unsigned int decimal_val = 0;
 if (!b)
 return (0);
 
-while (b)
 for (i = 0; b[i]; i++)
 {
 if (b[i] < '0' || b[i] > '1')
