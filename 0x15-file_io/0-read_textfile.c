@@ -5,10 +5,10 @@
 
 /**
 * read_textfile- Read text file print to STDOUT.
-* @filename: text file being read
-* @letters: number of letters to be read
-* Return: w- actual number of bytes read and printed
-*        0 when function fails or filename is NULL.
+* @filename: text file to read
+* @letters: number of letters to read and print
+* Return: actual number of bytes read and printed
+* if file can not be opened or read or filename is NULL.
 */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -28,9 +28,8 @@ else
 buf = malloc(sizeof(char) * letters);
 t = read(fd, buf, letters);
 w = write(STDOUT_FILENO, buf, t);
- 
+
 /* Close the file using fclose function */
-free(buf);
 close(fd);
 return (w);
 }
