@@ -18,7 +18,7 @@ ssize_t fd;
 ssize_t w;
 ssize_t t;
 
-/* Open a file using fopen */
+/* Open a file using open */
 fd = open(filename, O_RDONLY);
 
 /* Process the file using suitable functions */
@@ -29,7 +29,7 @@ buf = malloc(sizeof(char) * letters);
 t = read(fd, buf, letters);
 w = write(STDOUT_FILENO, buf, t);
 
-/* Close the file using fclose function */
+/* Close the file using close function */
 close(fd);
 return (w);
 }
