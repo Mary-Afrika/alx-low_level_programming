@@ -23,7 +23,7 @@ return (-1);
 
 while (text_content != NULL)
 {
-(len = 0; text_content[len]);
+for (len = 0; text_content[len];)
 len++;
 }
 
