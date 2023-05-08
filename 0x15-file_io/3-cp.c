@@ -36,16 +36,22 @@ exit(98);
 }
 write_counter = write(fd2, buffer, read_counter);
 if (write_counter != read_counter)
+{
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", av[2]);
 exit(99);
+}
 } while (read_counter > 0);
 status1 = close(fd); /* Close the input file */
 if (status1 == -1)
+{
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 exit(100);
+}
 status2 = close(fd2); /* Close the output file */
 if (status2 == -1)
+{
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd2);
 exit(100);
+}
 return (0);
 }
